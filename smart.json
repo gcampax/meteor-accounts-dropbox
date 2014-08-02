@@ -1,0 +1,11 @@
+{
+  "name": "accounts-dropbox",
+  "description": "Login service for Dropbox",
+  "homepage": "https://github.com/mathieudutour/meteor-accounts-dropbox",
+  "author": "Mathieu Dutour <mathieu@dutour.me>",
+  "version": "0.0.1",
+  "git": "https://github.com/mathieudutour/meteor-accounts-dropbox.git",
+  "packages": {
+    "dropbox-oauth": "0.0.1"
+  }
+}

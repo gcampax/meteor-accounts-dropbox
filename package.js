@@ -9,7 +9,7 @@ Package.on_use(function (api) {
   api.use('accounts-oauth', ['client', 'server']);
   api.use('dropbox-oauth', ['client', 'server']);
 
-  api.add_files(['dopbox_login_button.css'], 'client');
+  api.add_files(['dropbox_login_button.css'], 'client');
 
   api.add_files('dropbox.js', ['client', 'server']);
 });

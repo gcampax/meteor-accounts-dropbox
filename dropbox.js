@@ -9,11 +9,11 @@ if (Meteor.isClient) {
         }
 
         var credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback);
-        DropboxOauth.requestCredential(options, credentialRequestCompleteCallback);
+        DropboxOAuth.requestCredential(options, credentialRequestCompleteCallback);
     };
 } else {
     Accounts.addAutopublishFields({
-      forLoggedInUser: ['services.dropbox'],
-      forOtherUsers: ['services.dropbox.id']
+        forLoggedInUser: ['services.dropbox'],
+        forOtherUsers: ['services.dropbox.id']
     });
 }
